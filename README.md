@@ -35,6 +35,7 @@ npm i -D typescript @types/node
 ```sh
 npx tsc --init
 ```
+
 :heavy_check_mark: **Setting up Aliases of directories**
 
 ```sh
@@ -42,3 +43,8 @@ npm i module-alias
 npm i -D @types/module-alias
 ```
 
+:heavy_check_mark: **Creating a Aliases config file**
+
+```sh	
+touch src/config/module-alias.ts
+```
