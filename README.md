@@ -29,3 +29,16 @@ npm i gitignore node
 ```sh
 npm i -D typescript @types/node
 ```
+
+:heavy_check_mark: **Creating a Typescript config file**
+
+```sh
+npx tsc --init
+```
+:heavy_check_mark: **Setting up Aliases of directories**
+
+```sh
+npm i module-alias
+npm i -D @types/module-alias
+```
+
