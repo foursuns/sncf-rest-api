@@ -1,0 +1,20 @@
+{
+  "name": "sncf-rest-api",
+  "version": "1.0.0",
+  "description": "Web API built to provide traveler information on urban transportation networks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foursuns/sncf-rest-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foursuns/sncf-rest-api/issues"
+  },
+  "homepage": "https://github.com/foursuns/sncf-rest-api#readme"
+}
