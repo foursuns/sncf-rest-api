@@ -48,3 +48,10 @@ npm i -D @types/module-alias
 ```sh	
 touch src/config/module-alias.ts
 ```
+
+:heavy_check_mark: **Setting up EsLint**
+
+```sh
+touch .eslintrc.json
+npm i -D eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser 
+```
