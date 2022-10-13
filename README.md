@@ -49,9 +49,16 @@ npm i -D @types/module-alias
 touch src/config/module-alias.ts
 ```
 
-:heavy_check_mark: **Setting up EsLint**
+:heavy_check_mark: **Setting up EsLint and config file**
 
 ```sh
 touch .eslintrc.json
 npm i -D eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser 
+```
+
+:heavy_check_mark: **Setting up Prettier and config file**
+
+```sh
+touch .prettierrc
+npm i -D prettier 
 ```
