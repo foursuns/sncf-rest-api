@@ -2,8 +2,10 @@
   "name": "sncf-rest-api",
   "version": "1.0.0",
   "description": "Web API built to provide traveler information on urban transportation networks",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "npm run build && node dist/src/server.js",
+    "start:dev": "ts-node-dev ./src/server.ts",
     "lint": "eslint ./src ./test --ext .ts",
     "lint:fix": "eslint ./src ./test --ext .ts --fix",
     "style:check": "prettier --check ./src/**/*.ts ./test/**/*.ts",
@@ -41,6 +43,7 @@
     "prettier": "^2.7.1",
     "supertest": "^6.3.0",
     "ts-jest": "^29.0.3",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^4.8.4"
   },
   "dependencies": {

@@ -52,15 +52,15 @@ touch src/config/module-alias.ts
 :heavy_check_mark: **Setting up EsLint and config file**
 
 ```sh
-touch .eslintrc.json
 npm i -D eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser 
+touch .eslintrc.json
 ```
 
 :heavy_check_mark: **Setting up Prettier and config file**
 
 ```sh
-touch .prettierrc
 npm i -D prettier 
+touch .prettierrc
 ```
 
 :heavy_check_mark: **Setting up Jest**
@@ -69,3 +69,15 @@ npm i -D prettier
 npm i -D jest ts-jest supertest @types/jest @types/supertest
 ```
 
+:heavy_check_mark: **Creating a Jest config file**
+
+```sh	
+touch jest.config.js
+touch test/globals.d.ts
+```
+
+:heavy_check_mark: **Setting up TypeScript Compiler**
+
+```sh
+npm i -D ts-node-dev
+```
