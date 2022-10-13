@@ -62,3 +62,10 @@ npm i -D eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser
 touch .prettierrc
 npm i -D prettier 
 ```
+
+:heavy_check_mark: **Setting up Jest**
+
+```sh
+npm i -D jest ts-jest supertest @types/jest @types/supertest
+```
+
